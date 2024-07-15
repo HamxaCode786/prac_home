@@ -2,8 +2,8 @@ import React from "react";
 import Person from "../../src/assets/images/Mask group.png";
 const Home = () => {
   return (
-    
-      <div className="outer_div">
+
+      <section className="outer_div">
         <div className="list_1hp">
           <ul className="li">
             <li>
@@ -36,8 +36,7 @@ const Home = () => {
           {" "}
           <img className="person" src={Person} />
         </div>
-      </div>
-    
+      </section>   
   );
 };
 

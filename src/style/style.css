@@ -239,11 +239,20 @@ display: flex;
 justify-content:space-evenly;
 align-items: center;
 width: 100%;
+height: 30rem;
 gap: 12rem;
 padding-top: 2rem;
 background-color: #F9F9F9;
+background-image: url("/home/hamza/practice_projects/green_figma/src/assets/images/Subtract.png")
+,url("/home/hamza/practice_projects/green_figma/src/assets/images/Union.png"),
+url("/home/hamza/practice_projects/green_figma/src/assets/images/Union (1).png");
+;
+background-repeat: no-repeat;
+background-position: right 0px top -8px, left, left 105px top -1.5px;
+background-size: contain;
 
 }
+
 
 
 
@@ -422,6 +431,12 @@ width: 8rem;
 .img_3 {
 
 height: 6rem;
+
+
+}
+
+
+.BACKGROUND_SECTION {
 
 
 }

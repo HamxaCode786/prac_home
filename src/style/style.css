@@ -231,3 +231,157 @@ background-color: #F9F9F9;
 
 /* footer styling done */
 
+
+
+
+.outer_div {
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+width: 100%;
+gap: 12rem;
+margin-top: 2rem;
+
+}
+
+
+
+.person {
+    height: 20rem;
+
+
+
+}
+
+.li {
+
+list-style: none;
+
+
+}
+.li2 {
+
+    list-style: none;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    gap: 15px;
+    
+    
+    }
+
+.list_1hp {
+
+width: 350px;
+
+
+}
+
+.f1_h{
+
+    font-family: Rubik;
+    font-size: 12px;
+    text-align: left;
+    background-color: #058B8C;
+    height: 30px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: #FFFFFF;
+    
+
+}
+.f2_h {
+
+    font-family: Rubik;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #1E1E1E;
+    
+
+}
+
+.f3_h {
+
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #000000;
+    
+
+
+
+
+}
+.f3_h span {
+
+    
+    color: #058B8C;
+
+    
+
+
+
+
+}
+.f4_h   {
+
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    
+
+
+
+}
+
+.b1_hp {
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 32px;
+width: 95px;
+border-radius: 18px;
+border: none;
+background-color: maroon;
+color: white;
+margin-top: 15px;
+cursor: pointer;
+    
+
+
+
+
+}
+
+
+.b1_hp2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 95px;
+    border-radius: 18px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    background:transparent;
+    color:black;
+    margin-top: 15px;
+    cursor: pointer;
+    
+    
+    
+    
+    }

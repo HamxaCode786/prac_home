@@ -241,6 +241,7 @@ align-items: center;
 width: 100%;
 gap: 12rem;
 margin-top: 2rem;
+background-color: #F9F9F9;
 
 }
 
@@ -385,3 +386,42 @@ cursor: pointer;
     
     
     }
+
+
+
+    .logo_2{
+
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+list-style: none;
+background-color: #F9F9F9;
+padding-top: 3rem;
+
+
+
+
+
+
+    }
+
+.logo_background {
+
+background-image: url("/home/hamza/practice_projects/green_figma/src/assets/images/Rectangle 11.png");
+border-radius: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+height:8rem;
+width: 8rem;
+
+
+
+}
+
+.img_3 {
+
+height: 6rem;
+
+
+}

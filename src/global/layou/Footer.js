@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer_div">
         <ul className="list4">
           <li>
-            <img className="logo_headerf" src={Logo} />
+            <img className="logo_headerf" src={Logo} alt="Logo"/>
           </li>
           <li>
             <p className="f_p">

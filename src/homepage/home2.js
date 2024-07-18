@@ -9,13 +9,13 @@ const Home2 = () => {
       <div>
         <ul className="logo_2">
           <li className="logo_background">
-            <img className="img_3" src={X1} />
+            <img className="img_3" src={X1} alt="x1" />
           </li>
           <li className="logo_background">
-            <img className="img_3" src={X2} />
+            <img className="img_3" src={X2} alt="x2" />
           </li>
           <li className="logo_background">
-            <img className="img_3" src={X3} />
+            <img className="img_3" src={X3} alt="x3" />
           </li>
         </ul>
       </div>

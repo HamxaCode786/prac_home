@@ -8,18 +8,172 @@ const Cardsection = () => {
           Explore Our <span className="card_heading2">Services</span>
         </h1>
         <div className="cards_div">
-          <Card className="card_1">
-            <Card.Body className="card_background">
-              <ul className="list_cards">
-                <li>
-                  <h1 className="title_card">AC Service</h1>
-                </li>
-                <li>
-                  <button className="button_cards">check</button>
-                </li>
-              </ul>
-            </Card.Body>
+            <div className="card_width">
+          <Card className="card_background">
+            <ul className="list_cards">
+              <li>
+                <h1 className="title_card">AC Service</h1>
+              </li>
+              <li>
+                <button className="button_cards">Book Now</button>
+              </li>
+              <li>
+                <h1 className="title_card2">AC Service</h1>
+              </li>
+            </ul>
           </Card>
+          </div>
+          <div className="card_width">
+          <Card className="card_background">
+            <ul className="list_cards">
+              <li>
+                <h1 className="title_card">AC Service</h1>
+              </li>
+              <li>
+                <button className="button_cards">Book Now</button>
+              </li>
+              <li>
+                <h1 className="title_card2">AC Service</h1>
+              </li>
+            </ul>
+          </Card>
+          </div>
+          <div className="card_width">
+          <Card className="card_background">
+            <ul className="list_cards">
+              <li>
+                <h1 className="title_card">AC Service</h1>
+              </li>
+              <li>
+                <button className="button_cards">Book Now</button>
+              </li>
+              <li>
+                <h1 className="title_card2">AC Service</h1>
+              </li>
+            </ul>
+          </Card>
+          </div>
+          <div className="card_width">
+          <Card className="card_background">
+            <ul className="list_cards">
+              <li>
+                <h1 className="title_card">AC Service</h1>
+              </li>
+              <li>
+                <button className="button_cards">Book Now</button>
+              </li>
+              <li>
+                <h1 className="title_card2">AC Service</h1>
+              </li>
+            </ul>
+          </Card>
+          </div>
+          <div className="card_width">
+          <Card className="card_background">
+            <ul className="list_cards">
+              <li>
+                <h1 className="title_card">AC Service</h1>
+              </li>
+              <li>
+                <button className="button_cards">Book Now</button>
+              </li>
+              <li>
+                <h1 className="title_card2">AC Service</h1>
+              </li>
+            </ul>
+          </Card>
+          </div>
+          <div className="card_width">
+          <Card className="card_background">
+            <ul className="list_cards">
+              <li>
+                <h1 className="title_card">AC Service</h1>
+              </li>
+              <li>
+                <button className="button_cards">Book Now</button>
+              </li>
+              <li>
+                <h1 className="title_card2">AC Service</h1>
+              </li>
+            </ul>
+          </Card>
+          </div>
+          <div className="card_width">
+          <Card className="card_background">
+            <ul className="list_cards">
+              <li>
+                <h1 className="title_card">AC Service</h1>
+              </li>
+              <li>
+                <button className="button_cards">Book Now</button>
+              </li>
+              <li>
+                <h1 className="title_card2">AC Service</h1>
+              </li>
+            </ul>
+          </Card>
+          </div>
+          <div className="card_width">
+          <Card className="card_background">
+            <ul className="list_cards">
+              <li>
+                <h1 className="title_card">AC Service</h1>
+              </li>
+              <li>
+                <button className="button_cards">Book Now</button>
+              </li>
+              <li>
+                <h1 className="title_card2">AC Service</h1>
+              </li>
+            </ul>
+          </Card>
+          </div>
+          <div className="card_width">
+          <Card className="card_background">
+            <ul className="list_cards">
+              <li>
+                <h1 className="title_card">AC Service</h1>
+              </li>
+              <li>
+                <button className="button_cards">Book Now</button>
+              </li>
+              <li>
+                <h1 className="title_card2">AC Service</h1>
+              </li>
+            </ul>
+          </Card>
+          </div>
+          <div className="card_width">
+          <Card className="card_background">
+            <ul className="list_cards">
+              <li>
+                <h1 className="title_card">AC Service</h1>
+              </li>
+              <li>
+                <button className="button_cards">Book Now</button>
+              </li>
+              <li>
+                <h1 className="title_card2">AC Service</h1>
+              </li>
+            </ul>
+          </Card>
+          </div>
+          <div className="card_width">
+          <Card className="card_background">
+            <ul className="list_cards">
+              <li>
+                <h1 className="title_card">AC Service</h1>
+              </li>
+              <li>
+                <button className="button_cards">Book Now</button>
+              </li>
+              <li>
+                <h1 className="title_card2">AC Service</h1>
+              </li>
+            </ul>
+          </Card>
+          </div>
+                    
         </div>
       </section>
     </div>

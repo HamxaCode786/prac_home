@@ -1,84 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
-
-    font-family: "Rubik";
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-
-
+  font-family: "Rubik";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* header styling start */
 
 .header {
-
-display: flex;
-justify-content:space-evenly;
-align-items: center;
-gap: 20%;
-padding-top: 1rem;
-background-color: #F9F9F9;
-padding-bottom: 15px;
-
-
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20%;
+  padding-top: 1rem;
+  background-color: #f9f9f9;
+  padding-bottom: 15px;
 }
-
 
 .logo_header {
-
-width: 55%;
-
-
-
+  width: 55%;
 }
 
-
 .header_button {
-
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 1.2rem;
-
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
 }
 
 .b-1 {
-
-    font-family: Rubik;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 21.33px;
-    text-align: left;
-    color: #058B8C;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    
-
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21.33px;
+  text-align: left;
+  color: #058b8c;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 .b-4 {
-
-    font-family: Rubik;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 21.33px;
-    text-align: left;
-    background-color: #058B8C;
-    color: white;
-    border: none;
-    border-radius: 18px;
-    height: 35px;
-    padding-left: 10px;
-    padding-right: 10px;
-    cursor: pointer;
-    
-
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21.33px;
+  text-align: left;
+  background-color: #058b8c;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
 }
 
 /* header styling done */
@@ -86,486 +62,377 @@ gap: 1.2rem;
 /* footer styling start */
 
 .f_p {
-
-    font-family: Rubik;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-color:#8F8F8F;    
-
-
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #8f8f8f;
 }
 
 .footer_div {
-
-margin-right: 5rem;
-margin-left: 5rem;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-align-items: center;
-gap: 10%;
-padding-top: 2rem;
-border: solid;
-border-width:0px 0px 2px 0px;
-border-color:#C4C4C4;
-padding-bottom: 20px;
-
-
+  margin-right: 5rem;
+  margin-left: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 10%;
+  padding-top: 2rem;
+  border: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #c4c4c4;
+  padding-bottom: 20px;
 }
 
 .list {
-
-list-style: none;
-font-family: Rubik;
-font-size: 15px;
-font-weight: 400;
-line-height: 30px;
-text-align: left;
-color:#8F8F8F;    
-
-
+  list-style: none;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #8f8f8f;
 }
 
 .list1 {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    font-family: Rubik;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    color:#8F8F8F;    
-    gap: 5px;
-    
-    
-    }
-    
-    .list2 {
-
-        list-style: none;
-        font-family: Rubik;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 30px;
-        text-align: left;
-        color:#8F8F8F;
-        padding-top: 1.8rem;    
-        
-        
-        }
-
-
-
-        .list4 {
-
-
-            list-style: none;
-            font-family: Rubik;
-            font-size: 15px;
-            font-weight: 400;
-            line-height: 30px;
-            text-align: left;
-            color:#8F8F8F;
-            padding-top: 5rem;    
-            
-
-
-
-        }
-            
-    
-.form_footer {
-
-
-border-radius: 15px;
-
-padding-left: 7px;
-border:groove;
-
-border-width: 2px;
-height: 20px;
-width: 150px;
-outline-color:#058B8C;
-border-color: #058B8C;
-
-
-
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #8f8f8f;
+  gap: 5px;
 }
 
+.list2 {
+  list-style: none;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #8f8f8f;
+  padding-top: 1.8rem;
+}
 
+.list4 {
+  list-style: none;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #8f8f8f;
+  padding-top: 5rem;
+}
 
+.form_footer {
+  border-radius: 15px;
+
+  padding-left: 7px;
+  border: groove;
+
+  border-width: 2px;
+  height: 20px;
+  width: 150px;
+  outline-color: #058b8c;
+  border-color: #058b8c;
+}
 
 .button_form_f {
-    
-    border-radius: 15px;
+  border-radius: 15px;
 
-    padding-left: 7px;
-    border:none;
-    background-color: #058B8C !important;
-    border-width: 2px;
-    height: 20px;
-    width: 50px;
-    padding-right: 7px;
-    font-size: 12px;
-    cursor: pointer;
-    
-    
-
-
+  padding-left: 7px;
+  border: none;
+  background-color: #058b8c !important;
+  border-width: 2px;
+  height: 20px;
+  width: 50px;
+  padding-right: 7px;
+  font-size: 12px;
+  cursor: pointer;
 }
-
 
 .footer_auto {
-
-background-color: #F9F9F9;
-
-
-
+  background-color: #f9f9f9;
 }
-
 
 /* footer styling done */
 
-
-
-
 .outer_div {
-display: flex;
-justify-content:space-evenly;
-align-items: center;
-width: 100%;
-height: 30rem;
-gap: 12rem;
-padding-top: 2rem;
-background-color: #F9F9F9;
-background-image: url("/home/hamza/practice_projects/green_figma/src/assets/images/Subtract.png")
-,url("/home/hamza/practice_projects/green_figma/src/assets/images/Union.png"),
-url("/home/hamza/practice_projects/green_figma/src/assets/images/Union (1).png");
-;
-background-repeat: no-repeat;
-background-position: right 0px top -8px, left, left 105px top -1.5px;
-background-size: contain;
-
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 30rem;
+  gap: 12rem;
+  padding-top: 2rem;
+  background-color: #f9f9f9;
+  background-image: url("/home/hamza/practice_projects/green_figma/src/assets/images/Subtract.png"),
+    url("/home/hamza/practice_projects/green_figma/src/assets/images/Union.png"),
+    url("/home/hamza/practice_projects/green_figma/src/assets/images/Union (1).png");
+  background-repeat: no-repeat;
+  background-position: right 0px top -8px, left, left 105px top -1.5px;
+  background-size: contain;
 }
 
-
-
-
 .person {
-    height: 20rem;
-
-
-
+  height: 20rem;
 }
 
 .li {
-
-list-style: none;
-
-
+  list-style: none;
 }
 .li2 {
-
-    list-style: none;
-    display: flex;
-    justify-content:left;
-    align-items: center;
-    gap: 15px;
-    
-    
-    }
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 15px;
+}
 
 .list_1hp {
-
-width: 350px;
-
-
+  width: 350px;
 }
 
-.f1_h{
-
-    font-family: Rubik;
-    font-size: 12px;
-    text-align: left;
-    background-color: #058B8C;
-    height: 30px;
-    width: 110px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    color: #FFFFFF;
-    
-
+.f1_h {
+  font-family: Rubik;
+  font-size: 12px;
+  text-align: left;
+  background-color: #058b8c;
+  height: 30px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: #ffffff;
 }
 .f2_h {
-
-    font-family: Rubik;
-    font-size: 20px;
-    line-height: 35px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    color: #1E1E1E;
-    
-
+  font-family: Rubik;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #1e1e1e;
 }
 
 .f3_h {
-
-    font-family: Rubik;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 35px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    color: #000000;
-    
-
-
-
-
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #000000;
 }
 .f3_h span {
-
-    
-    color: #058B8C;
-
-    
-
-
-
-
+  color: #058b8c;
 }
-.f4_h   {
-
-    font-family: Rubik;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
-    
-
-
-
+.f4_h {
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
 }
 
 .b1_hp {
-
-display: flex;
-justify-content: center;
-align-items: center;
-height: 32px;
-width: 95px;
-border-radius: 18px;
-border: none;
-background-color: maroon;
-color: white;
-margin-top: 15px;
-cursor: pointer;
-    
-
-
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 95px;
+  border-radius: 18px;
+  border: none;
+  background-color: maroon;
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
 }
 
-
 .b1_hp2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 95px;
+  border-radius: 18px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  background: transparent;
+  color: black;
+  margin-top: 15px;
+  cursor: pointer;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 32px;
-    width: 95px;
-    border-radius: 18px;
-    border: solid;
-    border-color: black;
-    border-width: 1px;
-    background:transparent;
-    color:black;
-    margin-top: 15px;
-    cursor: pointer;
-    
-    
-    
-    
-    }
-
-
-
-    .logo_2{
-
-display: flex;
-justify-content:space-evenly;
-align-items: center;
-list-style: none;
-background-color: #F9F9F9;
-padding-top: 3rem;
-
-
-
-
-
-
-    }
+.logo_2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  background-color: #f9f9f9;
+  padding-top: 3rem;
+}
 
 .logo_background {
-
-background-image: url("/home/hamza/practice_projects/green_figma/src/assets/images/Rectangle 11.png");
-border-radius: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
-height:8rem;
-width: 8rem;
-
-
+  background-image: url("/home/hamza/practice_projects/green_figma/src/assets/images/Rectangle 11.png");
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  width: 8rem;
 }
 
 .img_3 {
-
-height: 6rem;
-
-
+  height: 6rem;
 }
 
 /* card section styling start */
 
 .card_div {
-background-color:rgba(249, 249, 249, 1) ;
-
-
-
+  background-color: rgba(249, 249, 249, 1);
 }
-
-
 
 .card_heading1 {
-
-    font-family: Rubik;
-    font-size: 40px;
-    font-weight: 400;
-    padding-left: 75px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    padding-top: 45px;
-    
-
-
-
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 75px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding-top: 45px;
 }
 
-
 .card_heading2 {
-
-    font-family: Rubik;
-font-size: 40px;
-font-weight: 700;
-letter-spacing: -0.03em;
-text-align: left;
-color: #058B8C;
-
-
-
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #058b8c;
 }
 
 .cards_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100%;
-gap: 5rem;
-padding-top: 45px;
-overflow:auto;
-white-space: nowrap;
-padding-bottom: 20px;
+  gap: 2rem;
+  padding-top: 45px;
 
-
+  padding-bottom: 20px;
+  padding: 20px;
+  max-width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
-
-
 
 .card_background {
-    background-image: 
-    url("/home/hamza/practice_projects/green_figma/src/assets/images/cardsimage.png");
-    background-size: contain;
-    -webkit-mask-image: linear-gradient(black, transparent);
-    mask-image: linear-gradient(black 5%, transparent 150%);
-height: 18rem;
-border-radius: 35px;
-width: 15rem;
-cursor: pointer;
+  background-image: url("/home/hamza/practice_projects/green_figma/src/assets/images/cardsimage.png");
 
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent);
+  mask-image: linear-gradient(black 5%, transparent 150%);
+  border-radius: 35px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 22rem;
+  width: 15rem;
 }
 
+.card_background:hover {
+  background-image: url("/home/hamza/practice_projects/green_figma/src/assets/images/cardsimage.png");
 
-.card_background:hover{
-
-    background-image: 
-    url("/home/hamza/practice_projects/green_figma/src/assets/images/cardsimage.png");
-    background-size: contain;
-    
-    -webkit-mask-image: none;
-    border-radius: 35px;
-    mask-image: none;    
-
-
+  -webkit-mask-image: none;
+  mask-image: none;
+  border-radius: 35px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 22rem;
+  width: 15rem;
 }
-
-
-
-.card_background {
-
-display: grid;
-grid-template-rows: 1fr 1fr;
-justify-content: center;
-align-items: center;
-gap: 25px;
-
-
-}
-
-
 
 .list_cards {
-
-list-style: none;
-display: grid;
-grid-template-rows: 1fr 1fr;
-justify-content: center;
-align-items: center;
-
+  list-style: none;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  transition: visibility 0.3s;
 }
 .button_cards {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 150px;
-height: 40px;
-border-radius: 30px;
-border: solid;
-border-width: 2.54px;
-border-color: white;
-background: transparent;
-color: white;
-font-size: 15px;
-visibility: hidden;
-
-
-
+  visibility: hidden;
+}
+.title_card {
+  visibility: hidden;
+}
+.card_background:hover .button_cards {
+  visibility: visible;
 }
 
-.card_1 + .button_cards {
-
-    visibility: visible;
-
+.card_background:hover .title_card {
+  visibility: visible;
 }
+
+.button_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 130px;
+  background: transparent;
+  border: solid;
+  border-width: 2.5px;
+  border-color: white;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.title_card {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.title_card2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -2rem;
+  padding-top: 100px;
+  color: black;
+}
+.card_background:hover .title_card2 {
+  visibility: hidden;
+}
+.card_width {
+
+    height: 22rem;
+    width: 15rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
 
 
 

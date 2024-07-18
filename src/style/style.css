@@ -336,7 +336,7 @@
 }
 
 .card_background {
-  background-image: url("/home/hamza/practice_projects/green_figma/src/assets/images/cardsimage.png");
+  background-image: url("../assets/images/cardsimage.png");
 
   -webkit-mask-image: linear-gradient(to bottom, black, transparent);
   mask-image: linear-gradient(black 5%, transparent 150%);
@@ -352,7 +352,7 @@
 }
 
 .card_background:hover {
-  background-image: url("/home/hamza/practice_projects/green_figma/src/assets/images/cardsimage.png");
+  background-image: url("../assets/images/cardsimage.png");
 
   -webkit-mask-image: none;
   mask-image: none;

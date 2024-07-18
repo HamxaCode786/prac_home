@@ -434,8 +434,145 @@ height: 6rem;
 
 }
 
+/* card section styling start */
 
-.BACKGROUND_SECTION {
+.card_div {
+background-color:rgba(249, 249, 249, 1) ;
+
 
 
 }
+
+
+
+.card_heading1 {
+
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 75px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    padding-top: 45px;
+    
+
+
+
+}
+
+
+.card_heading2 {
+
+    font-family: Rubik;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: -0.03em;
+text-align: left;
+color: #058B8C;
+
+
+
+}
+
+.cards_div {
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+gap: 5rem;
+padding-top: 45px;
+overflow:auto;
+white-space: nowrap;
+padding-bottom: 20px;
+
+
+}
+
+
+
+.card_background {
+    background-image: 
+    url("/home/hamza/practice_projects/green_figma/src/assets/images/cardsimage.png");
+    background-size: contain;
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black 5%, transparent 150%);
+height: 18rem;
+border-radius: 35px;
+width: 15rem;
+cursor: pointer;
+
+}
+
+
+.card_background:hover{
+
+    background-image: 
+    url("/home/hamza/practice_projects/green_figma/src/assets/images/cardsimage.png");
+    background-size: contain;
+    
+    -webkit-mask-image: none;
+    border-radius: 35px;
+    mask-image: none;    
+
+
+}
+
+
+
+.card_background {
+
+display: grid;
+grid-template-rows: 1fr 1fr;
+justify-content: center;
+align-items: center;
+gap: 25px;
+
+
+}
+
+
+
+.list_cards {
+
+list-style: none;
+display: grid;
+grid-template-rows: 1fr 1fr;
+justify-content: center;
+align-items: center;
+
+}
+.button_cards {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 150px;
+height: 40px;
+border-radius: 30px;
+border: solid;
+border-width: 2.54px;
+border-color: white;
+background: transparent;
+color: white;
+font-size: 15px;
+visibility: hidden;
+
+
+
+}
+
+.card_1 + .button_cards {
+
+    visibility: visible;
+
+}
+
+
+
+
+
+
+
+
+
+/* card section styling Complete */

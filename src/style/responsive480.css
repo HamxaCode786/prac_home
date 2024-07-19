@@ -110,9 +110,32 @@ height: 12rem;
 
 }
 
+.logo_2 {
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+gap: 25px;
 
 
 
+}
+
+
+.card_heading1 {
+
+font-size: 25px;
+
+
+
+}
+
+.card_heading2 {
+
+    font-size: 25px;
+    
+    
+    
+    }
+    
 
 
 

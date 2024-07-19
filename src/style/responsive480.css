@@ -136,7 +136,17 @@ font-size: 25px;
     
     }
     
+.cards_div {
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+justify-content: center;
+align-items: center;
 
+
+
+
+
+}
 
 
 
